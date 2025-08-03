@@ -6,8 +6,6 @@ body {
   font-size: 18px;
   font-family: Roboto, sans-serif;
   color: #e5e7eb;
-  display: flex;
-  flex-direction: column;
 }
 a {
   text-decoration: none;
