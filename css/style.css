@@ -6,18 +6,27 @@ body {
   font-size: 18px;
   font-family: Roboto, sans-serif;
   color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
+.first-section {
+  background-color: #1f2937;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
+/* header */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f2937;
-  padding: 14px 0; margin: 0 14vw;
+  padding: 14px 0; margin: 0 12vw;
 }
 nav .logo {
   color: #f9faf8;
@@ -27,4 +36,41 @@ nav ul {
   list-style-type: none;
   display: flex;
   gap: 20px;
+}
+
+/* hero */
+.hero-back {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero {
+  display: flex;
+  gap: 20px;
+  margin: 0 12vw;
+}
+.left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.right-side {
+  flex: 1;
+  background-color: #ffffff7d;
+}
+.left-side h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+.left-side button {
+  font-size: inherit;
+  color: inherit;
+  font-weight: bold;
+  background-color: #3882f6;
+  padding: 8px 30px;
+  align-self: flex-start;
+  border-radius: 10px;
 }
