@@ -1,10 +1,13 @@
+/* Roboto font by google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   padding: 0; margin: 0;
   box-sizing: border-box;
 }
 body {
   font-size: 18px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -113,4 +116,25 @@ nav ul {
 }
 .second-section ul li p {
   text-align: center;
+}
+
+/* third-section */
+.third-section {
+  height: 60vh;
+  padding: 0 18vw;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.third-section .quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+.third-section .quote-author {
+  text-align: end;
+  font-weight: 900;
+  font-size: 20px;
 }
