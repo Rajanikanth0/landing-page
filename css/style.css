@@ -76,9 +76,9 @@ nav ul {
   padding: 8px 30px;
   align-self: flex-start;
   border-radius: 10px;
+  border: none;
 }
 
-/* add alt text to img, fix btn back */
 /* second-section */
 .second-section {
   height: 70vh;
