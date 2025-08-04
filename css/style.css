@@ -5,21 +5,25 @@
 body {
   font-size: 18px;
   font-family: Roboto, sans-serif;
-  color: #e5e7eb;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
+
+/* first-section */
+
 .first-section {
+  color: #e5e7eb;
   background-color: #1f2937;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 /* header */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -37,6 +41,7 @@ nav ul {
 }
 
 /* hero */
+
 .hero-back {
   flex: 1;
   display: flex;
@@ -71,4 +76,41 @@ nav ul {
   padding: 8px 30px;
   align-self: flex-start;
   border-radius: 10px;
+}
+
+/* add alt text to img, fix btn back */
+/* second-section */
+.second-section {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-section h2 {
+  text-align: center;
+  padding: 50px 0;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+.second-section ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.second-section ul li {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.second-section ul li div {
+  height: 170px;
+  border: thick solid #3882f6;
+  border-radius: 20px;
+}
+.second-section ul li p {
+  text-align: center;
 }
