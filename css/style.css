@@ -88,7 +88,6 @@ nav ul {
   display: flex;
   flex-direction: column;
 }
-
 .second-section h2 {
   text-align: center;
   padding: 50px 0;
@@ -137,4 +136,35 @@ nav ul {
   text-align: end;
   font-weight: 900;
   font-size: 20px;
+}
+
+/* fourth section */
+.fourth-section {
+  color: #e5e7eb;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-section .cta {
+  width: 70%;
+  padding: 40px 0;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 6px;
+}
+.cta-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+.cta button {
+  font-size: inherit;
+  padding: 8px 30px;
+  border-radius: 10px;
+  color: inherit;
+  border-color: #e5e7eb;
+  background-color: inherit;
 }
